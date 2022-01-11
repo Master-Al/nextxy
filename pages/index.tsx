@@ -62,8 +62,8 @@ class Home extends React.Component {
               <div className="greyuserInfo">
                 <Image
                   src={userInfoGray}
-                  alt="order"
-                  className="orderImage"
+                  alt="greyuserInfo"
+                  className="greyuserInfos"
                   height={150}
                   width={270}
                 />
@@ -71,8 +71,8 @@ class Home extends React.Component {
               <div className="userInfo">
                 <Image
                   src={userInfo}
-                  alt="order"
-                  className="orderImage"
+                  alt="userInfo"
+                  className="userInfos"
                   height={150}
                   width={270}
                 />
@@ -81,7 +81,7 @@ class Home extends React.Component {
                 <Image
                   src={lgbt}
                   alt="order"
-                  className="orderImage"
+                  className="lgbts"
                   height={550}
                   width={350}
                 />
