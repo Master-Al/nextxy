@@ -171,6 +171,7 @@
   font-size: 120px;
   color: #fff;
   font-weight: 600;
+  top: 50%;
 }
 .woodbg {
   margin: 0 auto;
@@ -179,4 +180,29 @@
   height: 598.0692138671875px;
   width: 2316px;
   border-radius: 0px;
+}
+.SoonDesc {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.bottom {
+  bottom: 0;
+}
+input[type="text"] {
+  width: 30%;
+  height: 100%;
+  color: #000000;
+  padding-right: 50px;
+}
+
+input[type="submit"] {
+  margin-left: -50px;
+  height: 80%;
+  width: 10%;
+  color: white;
+  border: 0;
+  -webkit-appearance: none;
 }
