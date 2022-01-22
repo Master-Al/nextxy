@@ -1,8 +1,10 @@
 import Navbar from "./Navbar";
 // import Footer from "./footer";
 import Head from "next/head";
-
-export default function Layout({ children }) {
+interface LayoutProps {
+  children: React.ReactNode;
+}
+export default function Layout({ children }: LayoutProps) {
   return (
     <>
       <Head>
