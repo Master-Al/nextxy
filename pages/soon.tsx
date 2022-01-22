@@ -17,7 +17,7 @@ class Soon extends React.Component {
             <div className="Soon">ROLYN SOON</div>
             <div className="bottom">
               <div className="SoonDesc ">
-                Get A Qoute while we're Rolyn the website
+                Get A Qoute while we&rsquo;re Rolyn the website
               </div>
               <div className="SoonDesc ">
                 <input
@@ -36,7 +36,7 @@ class Soon extends React.Component {
             <div>
               <div className="container h-screen flex justify-center items-center">
                 <div className="getQoute">
-                  Get A Quote while We&apos;re Rolyn the Website
+                  Get A Quote while We&rsquo;re Rolyn the Website
                 </div>
                 <div className="relative">
                   <input
