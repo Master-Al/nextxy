@@ -8,6 +8,8 @@ import lgbt from "../public/lgbt.png";
 import userInfo from "../public/popup.png";
 import userInfoGray from "../public/popupGray.png";
 import QueueAnim from "rc-queue-anim";
+import Link from "next/link";
+
 class Home extends React.Component {
   render() {
     return (
@@ -40,12 +42,11 @@ class Home extends React.Component {
 
               <br />
               <br />
-              <a
-                href="#"
-                className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-full shadow-sm text-base font-medium text-white bg-[#266599] hover:bg-indigo-700"
-              >
-                Get a Qoute
-              </a>
+              <Link href="#">
+                <a className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-full shadow-sm text-base font-medium text-white bg-[#266599] hover:bg-indigo-700">
+                  Get a Qoute
+                </a>
+              </Link>
             </div>
           </div>
           <div className="col-half">

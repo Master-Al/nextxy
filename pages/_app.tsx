@@ -8,6 +8,8 @@ import linkedin from "../public/linkedin.png";
 import instagram from "../public/instagram.png";
 import telegram from "../public/telegram.png";
 import viber from "../public/viber.png";
+import Link from "next/link";
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div
@@ -15,51 +17,61 @@ function MyApp({ Component, pageProps }: AppProps) {
     bg-no-repeat bg-cover bg-[#151515]"
     >
       <div className="social-buttons">
-        <a href="#">
-          <Image
-            src={facebook}
-            alt="facebook"
-            // className="orderImage"
-            height={27}
-            width={27}
-          />
-        </a>
-        <a href="#">
-          <Image
-            src={linkedin}
-            alt="linkedin"
-            // className="orderImage"
-            height={27}
-            width={27}
-          />
-        </a>
-        <a href="#">
-          <Image
-            src={instagram}
-            alt="instagram"
-            // className="orderImage"
-            height={27}
-            width={27}
-          />
-        </a>
-        <a href="#">
-          <Image
-            src={telegram}
-            alt="telegram"
-            // className="orderImage"
-            height={27}
-            width={27}
-          />
-        </a>
-        <a href="#">
-          <Image
-            src={viber}
-            alt="viber"
-            // className="orderImage"
-            height={27}
-            width={27}
-          />
-        </a>
+        <Link href="#">
+          <a>
+            <Image
+              src={facebook}
+              alt="facebook"
+              // className="orderImage"
+              height={27}
+              width={27}
+            />
+          </a>
+        </Link>
+        <Link href="#">
+          <a>
+            <Image
+              src={linkedin}
+              alt="linkedin"
+              // className="orderImage"
+              height={27}
+              width={27}
+            />
+          </a>
+        </Link>
+        <Link href="#">
+          <a>
+            <Image
+              src={instagram}
+              alt="instagram"
+              // className="orderImage"
+              height={27}
+              width={27}
+            />
+          </a>
+        </Link>
+        <Link href="#">
+          <a>
+            <Image
+              src={telegram}
+              alt="telegram"
+              // className="orderImage"
+              height={27}
+              width={27}
+            />
+          </a>
+        </Link>
+        <Link href="#">
+          <a>
+            <Image
+              src={viber}
+              alt="viber"
+              // className="orderImage"
+              height={27}
+              width={27}
+            />
+          </a>
+        </Link>
       </div>
       <Layout>
         <Component {...pageProps} />
