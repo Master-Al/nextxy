@@ -36,7 +36,7 @@ class Soon extends React.Component {
             <div>
               <div className="container h-screen flex justify-center items-center">
                 <div className="getQoute">
-                  Get A Quote while We`&apos;`re Rolyn the Website
+                  Get A Quote while We&apos;re Rolyn the Website
                 </div>
                 <div className="relative">
                   <input
