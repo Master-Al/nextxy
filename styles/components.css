@@ -1,3 +1,6 @@
+.mobile {
+  display: none;
+}
 .row {
   width: 100% !important;
 }
