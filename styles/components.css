@@ -218,8 +218,105 @@ input[type="submit"] {
   display: block;
   width: 18%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .imageContainer {
     display: none;
+  }
+  .tops {
+    margin-top: 0px;
+  }
+  .desktop {
+    display: none;
+  }
+  .heyRolyn {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 600px;
+  }
+  .desc {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 160%;
+    font-weight: 500px;
+  }
+  .question {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: 600px;
+  }
+  .mobilecol {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  .mobileorderImage {
+    position: absolute;
+    top: -110px;
+    right: 20px;
+  }
+  .mobilegreyuserInfo {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+  }
+  .mobileuserInfo {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    animation: mobileshake-animation 4.72s ease infinite;
+    transform-origin: 50% 50%;
+  }
+  @keyframes mobileshake-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    1.78571% {
+      transform: translate(5px, 0);
+    }
+    3.57143% {
+      transform: translate(0, 0);
+    }
+    5.35714% {
+      transform: translate(5px, 0);
+    }
+    7.14286% {
+      transform: translate(0, 0);
+    }
+    8.92857% {
+      transform: translate(5px, 0);
+    }
+    10.71429% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  .mobilelgbt {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    -webkit-animation: linear;
+    -webkit-animation-name: mobilerun;
+    -webkit-animation-duration: 3s;
+  }
+  @-webkit-keyframes mobilerun {
+    0% {
+      left: 0px;
+    }
+    25% {
+      left: 10%;
+    }
+    50% {
+      left: 20%;
+    }
+    75% {
+      left: 40%;
+    }
+    100% {
+      left: 60%;
+    }
   }
 }
