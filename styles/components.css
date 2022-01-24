@@ -218,3 +218,8 @@ input[type="submit"] {
   display: block;
   width: 18%;
 }
+@media screen and (max-width: 600px) {
+  .imageContainer {
+    display: none;
+  }
+}
