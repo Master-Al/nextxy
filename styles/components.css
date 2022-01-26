@@ -221,9 +221,6 @@ input[type="submit"] {
   display: block;
   width: 18%;
 }
-.Device1logo {
-  z-index: -1;
-}
 .Device1 {
   position: absolute;
   float: left;
@@ -236,22 +233,19 @@ input[type="submit"] {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-200px);
+    transform: translateY(-80px);
   }
   100% {
     transform: translateY(0);
   }
 }
-.Device2logo {
-  z-index: -1;
-}
 .Device2 {
   position: absolute;
   float: left;
   padding-top: 5%;
-  padding-right: 20%;
+  padding-right: 40%;
   -webkit-animation-name: Device2animation;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
 @-webkit-keyframes Device2animation {
@@ -269,7 +263,7 @@ input[type="submit"] {
 .Device3 {
   position: absolute;
   float: left;
-  padding-top: 20%;
+  padding-top: 40%;
   padding-left: 30%;
   -webkit-animation-name: Device3animation;
   animation-duration: 3s;

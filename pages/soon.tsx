@@ -17,8 +17,8 @@ class Soon extends React.Component {
             src={Device2}
             alt="Device2"
             className="Device2logo"
-            height={450}
-            width={400}
+            height={400}
+            width={350}
           />
         </div>
         <div className="Device1">
@@ -26,8 +26,8 @@ class Soon extends React.Component {
             src={Device1}
             alt="Device1"
             className="Device1logo"
-            height={450}
-            width={400}
+            height={400}
+            width={350}
           />
         </div>
         <div className="Device3">
@@ -51,6 +51,7 @@ class Soon extends React.Component {
               <div className="SoonDesc ">
                 <input
                   type="text"
+                  placeholder="Input you email address"
                   className="ml-8 text-neutral-900 whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-full text-base font-medium text-black bg-[#ffffff]"
                 />
                 <input
