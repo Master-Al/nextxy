@@ -194,7 +194,7 @@
 }
 .bottom {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 300px;
   bottom: 0;
 }
@@ -220,6 +220,72 @@ input[type="submit"] {
   text-align: center;
   display: block;
   width: 18%;
+}
+.Device1logo {
+  z-index: -1;
+}
+.Device1 {
+  position: absolute;
+  float: left;
+  -webkit-animation-name: Device1animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes Device1animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.Device2logo {
+  z-index: -1;
+}
+.Device2 {
+  position: absolute;
+  float: left;
+  padding-top: 5%;
+  padding-right: 20%;
+  -webkit-animation-name: Device2animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes Device2animation {
+  0% {
+    transform: translate(100px, 0);
+  }
+  50% {
+    /* transform: translateX(-190px); */
+    transform: translate(0, 100px);
+  }
+  100% {
+    transform: translate(100px, 0);
+  }
+}
+.Device3 {
+  position: absolute;
+  float: left;
+  padding-top: 20%;
+  padding-left: 30%;
+  -webkit-animation-name: Device3animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes Device3animation {
+  0% {
+    transform: translate(0, 100px);
+  }
+  50% {
+    /* transform: translateX(-190px); */
+    transform: translate(-100px, 0);
+  }
+  100% {
+    transform: translate(0, 100px);
+  }
 }
 @media screen and (max-width: 900px) {
   .mobile {
