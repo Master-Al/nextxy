@@ -263,7 +263,7 @@ input[type="submit"] {
 .Device3 {
   position: absolute;
   float: left;
-  padding-top: 40%;
+  padding-top: 30%;
   padding-left: 30%;
   -webkit-animation-name: Device3animation;
   animation-duration: 3s;
