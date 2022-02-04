@@ -17,8 +17,8 @@ class Soon extends React.Component {
             src={Device2}
             alt="Device2"
             className="Device2logo"
-            height={300}
-            width={300}
+            height={250}
+            width={250}
           />
         </div>
         <div className="Device1">
@@ -26,8 +26,8 @@ class Soon extends React.Component {
             src={Device1}
             alt="Device1"
             className="Device1logo"
-            height={300}
-            width={300}
+            height={250}
+            width={250}
           />
         </div>
         <div className="Device3">
@@ -35,8 +35,8 @@ class Soon extends React.Component {
             src={Device3}
             alt="Device3"
             className="Device3logo"
-            height={300}
-            width={300}
+            height={250}
+            width={250}
           />
         </div>
         <div className="rolynsoon">

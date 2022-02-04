@@ -232,7 +232,8 @@ input[type="submit"] {
 .Device1 {
   position: absolute;
   float: left;
-  padding-right: 10%;
+  padding-right: 5%;
+  top: 13%;
   -webkit-animation-name: Device1animation;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -242,7 +243,7 @@ input[type="submit"] {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-100px);
+    transform: translateY(-20px);
   }
   100% {
     transform: translateY(0);
@@ -251,43 +252,43 @@ input[type="submit"] {
 .Device2 {
   position: absolute;
   float: left;
-  padding-top: 5%;
-  padding-right: 30%;
+  top: 15%;
+  padding-right: 13%;
   -webkit-animation-name: Device2animation;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 @-webkit-keyframes Device2animation {
   0% {
-    transform: translate(100px, 0);
+    transform: translate(20px, 0);
   }
   50% {
     /* transform: translateX(-190px); */
-    transform: translate(0, 100px);
+    transform: translate(0, 20px);
   }
   100% {
-    transform: translate(100px, 0);
+    transform: translate(20px, 0);
   }
 }
 .Device3 {
   position: absolute;
   float: left;
-  padding-top: 15%;
-  padding-left: 10%;
+  top: 28%;
+  padding-right: 1%;
   -webkit-animation-name: Device3animation;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 @-webkit-keyframes Device3animation {
   0% {
-    transform: translate(0, 100px);
+    transform: translate(0, 10px);
   }
   50% {
     /* transform: translateX(-190px); */
-    transform: translate(-100px, 0);
+    transform: translate(-9px, 0);
   }
   100% {
-    transform: translate(0, 100px);
+    transform: translate(0, 10px);
   }
 }
 @media screen and (max-width: 900px) {
