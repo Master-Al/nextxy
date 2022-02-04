@@ -441,4 +441,81 @@ input[type="submit"] {
     -webkit-text-fill-color: transparent;
     transform: scale(2.2);
   }
+  input[type="text"] {
+    width: 90%;
+    height: 100%;
+    color: #000000;
+    padding-right: 50px;
+  }
+
+  input[type="submit"] {
+    margin-left: -20%;
+    height: 20%;
+    width: 18%;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+  }
+  .Device1 {
+    position: absolute;
+    float: left;
+    padding-right: 5%;
+    top: 13%;
+    -webkit-animation-name: Device1animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes Device1animation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .Device2 {
+    position: absolute;
+    float: left;
+    top: 15%;
+    padding-right: 18%;
+    -webkit-animation-name: Device2animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes Device2animation {
+    0% {
+      transform: translate(20px, 0);
+    }
+    50% {
+      /* transform: translateX(-190px); */
+      transform: translate(0, 20px);
+    }
+    100% {
+      transform: translate(20px, 0);
+    }
+  }
+  .Device3 {
+    position: absolute;
+    float: left;
+    top: 30%;
+    padding-right: 1%;
+    -webkit-animation-name: Device3animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes Device3animation {
+    0% {
+      transform: translate(0, 10px);
+    }
+    50% {
+      /* transform: translateX(-190px); */
+      transform: translate(-9px, 0);
+    }
+    100% {
+      transform: translate(0, 10px);
+    }
+  }
 }
