@@ -253,7 +253,7 @@ input[type="submit"] {
   position: absolute;
   float: left;
   top: 15%;
-  padding-right: 13%;
+  padding-right: 18%;
   -webkit-animation-name: Device2animation;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -273,7 +273,7 @@ input[type="submit"] {
 .Device3 {
   position: absolute;
   float: left;
-  top: 28%;
+  top: 30%;
   padding-right: 1%;
   -webkit-animation-name: Device3animation;
   animation-duration: 2s;
