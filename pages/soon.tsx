@@ -39,7 +39,24 @@ class Soon extends React.Component {
             width={300}
           />
         </div>
-        <div className="row">
+        <div className="rolynsoon">
+          <div className="Soon">ROLYN SOON</div>
+        </div>
+        <div className="rolynbottom">
+          <div className="SoonDesc ">
+            <input
+              type="text"
+              placeholder="Input you email address"
+              className="ml-8 text-neutral-900 whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-full text-base font-medium text-black bg-[#ffffff]"
+            />
+            <input
+              type="submit"
+              value="Get A Qoute"
+              className="ml-8 whitespace-wrap inline-flex items-center justify-center px-4 py-1  rounded-full shadow-sm text-base font-medium text-white bg-[#266599] hover:bg-indigo-700"
+            />
+          </div>
+        </div>
+        {/* <div className="row">
           <div className="w-full">
             <div className="Soon">ROLYN SOON</div>
 
@@ -62,7 +79,7 @@ class Soon extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
