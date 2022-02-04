@@ -1,3 +1,6 @@
+.mobile {
+  display: none;
+}
 .row {
   width: 100% !important;
 }
@@ -218,8 +221,215 @@ input[type="submit"] {
   display: block;
   width: 18%;
 }
-@media screen and (max-width: 600px) {
+.Device1 {
+  position: absolute;
+  float: left;
+  padding-right: 10%;
+  -webkit-animation-name: Device1animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes Device1animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.Device2 {
+  position: absolute;
+  float: left;
+  padding-top: 5%;
+  padding-right: 30%;
+  -webkit-animation-name: Device2animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes Device2animation {
+  0% {
+    transform: translate(100px, 0);
+  }
+  50% {
+    /* transform: translateX(-190px); */
+    transform: translate(0, 100px);
+  }
+  100% {
+    transform: translate(100px, 0);
+  }
+}
+.Device3 {
+  position: absolute;
+  float: left;
+  padding-top: 15%;
+  padding-left: 10%;
+  -webkit-animation-name: Device3animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes Device3animation {
+  0% {
+    transform: translate(0, 100px);
+  }
+  50% {
+    /* transform: translateX(-190px); */
+    transform: translate(-100px, 0);
+  }
+  100% {
+    transform: translate(0, 100px);
+  }
+}
+@media screen and (max-width: 900px) {
+  .mobile {
+    display: block;
+  }
   .imageContainer {
     display: none;
+  }
+  .tops {
+    margin-top: 0px;
+  }
+  .desktop {
+    display: none;
+  }
+  .heyRolyn {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 600px;
+  }
+  .desc {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 160%;
+    font-weight: 500px;
+  }
+  .question {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: 600px;
+  }
+  .mobilecol {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  .mobileorderImage {
+    position: absolute;
+    top: -110px;
+    right: 20px;
+  }
+  .mobilegreyuserInfo {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+  }
+  .mobileuserInfo {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    animation: mobileshake-animation 4.72s ease infinite;
+    transform-origin: 50% 50%;
+  }
+  @keyframes mobileshake-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    1.78571% {
+      transform: translate(5px, 0);
+    }
+    3.57143% {
+      transform: translate(0, 0);
+    }
+    5.35714% {
+      transform: translate(5px, 0);
+    }
+    7.14286% {
+      transform: translate(0, 0);
+    }
+    8.92857% {
+      transform: translate(5px, 0);
+    }
+    10.71429% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  .mobilelgbt {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    -webkit-animation: linear;
+    -webkit-animation-name: mobilerun;
+    -webkit-animation-duration: 3s;
+  }
+  @-webkit-keyframes mobilerun {
+    0% {
+      left: 0px;
+    }
+    25% {
+      left: 10%;
+    }
+    50% {
+      left: 20%;
+    }
+    75% {
+      left: 40%;
+    }
+    100% {
+      left: 60%;
+    }
+  }
+  /* --- Add this CSS --- */
+  .social-buttons {
+    position: absolute;
+    left: 0rem;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+  }
+  .social-buttons a {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .social-buttons a::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #a3a1a1, #0f0f0f);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease-in;
+  }
+
+  .social-buttons a:hover::before {
+    transform: scale(0);
+  }
+
+  .social-buttons a i {
+    transition: 0.3s ease-in;
+  }
+
+  .social-buttons a:hover i {
+    background: linear-gradient(45deg, #a3a1a1, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2.2);
   }
 }
