@@ -8,7 +8,15 @@
   max-width: 1500px;
   margin: 0 auto;
 }
-
+.qoutes {
+  padding: 0 0.5rem;
+  display: block;
+  /* flex-direction: column;*/
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
 .main {
   padding: 5rem 0;
   flex: 1;
