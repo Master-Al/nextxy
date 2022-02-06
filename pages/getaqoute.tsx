@@ -49,11 +49,21 @@ class GetAQoute extends React.Component {
                 </label>
               </div>
               <div className="formArea">
-                <textarea name="text" required />
+                <textarea></textarea>
+                {/* <input type="text" name="text" required /> */}
                 <label className="label-name">
-                  <span className="content-name">Phone Number</span>
+                  <span className="content-name">Description</span>
                 </label>
               </div>
+              <div className="pl-2.5">
+                <button
+                  type="submit"
+                  className="l-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-xl shadow-sm text-base font-medium text-white bg-[#266599] hover:bg-indigo-700"
+                >
+                  Get A Qoute
+                </button>
+              </div>
+              We don’t sell your email and spam
             </form>
 
             {/* <form className="regform">

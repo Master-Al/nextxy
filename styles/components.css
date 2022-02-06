@@ -394,11 +394,11 @@ input[type="submit"] {
   display: inline-block;
   margin: 10px;
 }
-.formArea input {
+.formArea textarea {
   width: 100%;
   height: 100%;
   color: #000;
-  padding-top: 10px;
+  padding-top: 15px;
   border: none;
   border-radius: 5px;
   background-color: #ffffff;
@@ -406,7 +406,7 @@ input[type="submit"] {
 }
 .formArea label {
   position: absolute;
-  bottom: 40px;
+  bottom: 60px;
   left: 20px;
   width: 100%;
   height: 100%;
@@ -416,8 +416,8 @@ input[type="submit"] {
 .formArea label::after {
   content: "";
   position: absolute;
-  bottom: -1px;
-  left: px;
+  bottom: -4px;
+  left: 20px;
   width: 100%;
   height: 100%;
   border-bottom: 3px solid #ffffff;
@@ -432,18 +432,18 @@ input[type="submit"] {
   padding-bottom: 0.5px;
   transition: all 0.3s ease;
 }
-.formArea input:focus {
+.formArea textarea:focus {
   outline: none;
 }
-.formArea input:focus + .label-name .content-name,
-.formArea input:valid + .label-name .content-name {
+.formArea textarea:focus + .label-name .content-name,
+.formArea textarea:valid + .label-name .content-name {
   transform: translateY(-150%);
   font-size: 14px;
   left: 0px;
   color: #000000;
 }
-.formArea input:focus + .label-name::after,
-.formArea input:valid + .label-name::after {
+.formArea textarea:focus + .label-name::after,
+.formArea textarea:valid + .label-name::after {
   transform: translateX(0%);
 }
 @media screen and (max-width: 900px) {
