@@ -333,6 +333,23 @@ input[type="submit"] {
   display: inline-block;
   margin: 10px;
 }
+.formbtn {
+  width: 25%;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 10px 0px 10px 10px;
+}
+.formSell {
+  width: 70%;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  display: inline-block;
+  color: #ffffff;
+  margin: 10px 0px 10px 0px;
+}
 
 .form input {
   width: 100%;

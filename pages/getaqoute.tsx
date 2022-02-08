@@ -55,7 +55,7 @@ class GetAQoute extends React.Component {
                   <span className="content-name">Description</span>
                 </label>
               </div>
-              <div className="pl-2.5">
+              <div className="formbtn">
                 <button
                   type="submit"
                   className="l-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-xl shadow-sm text-base font-medium text-white bg-[#266599] hover:bg-indigo-700"
@@ -63,7 +63,7 @@ class GetAQoute extends React.Component {
                   Get A Qoute
                 </button>
               </div>
-              We don’t sell your email and spam
+              <div className="formSell">We don’t sell your email and spam</div>
             </form>
 
             {/* <form className="regform">
