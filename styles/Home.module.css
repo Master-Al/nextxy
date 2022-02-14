@@ -17,6 +17,16 @@
   width: 100%;
   margin: 0 auto;
 }
+.portfolio {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  max-width: 1500px;
+  margin: 0 auto;
+}
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -121,7 +131,11 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
+@media screen and (max-width: 900px) {
+  .portfolio {
+    display: none !important;
+  }
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;

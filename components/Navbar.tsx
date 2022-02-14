@@ -18,17 +18,17 @@ const solutions = [
     name: "Home",
     description:
       "Get a better understanding of where your traffic is coming from.",
-    href: "#",
+    href: "/",
   },
   {
     name: "Pricing and Services",
     description: "Speak directly to your customers in a more meaningful way.",
-    href: "#",
+    href: "/priceandservices",
   },
   {
     name: "Portfolio",
     description: "Your customers' data will be safe and secure.",
-    href: "#",
+    href: "/portfolio",
   },
 ];
 const callsToAction = [
