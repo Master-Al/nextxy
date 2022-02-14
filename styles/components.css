@@ -463,6 +463,19 @@ input[type="submit"] {
 .formArea textarea:valid + .label-name::after {
   transform: translateX(0%);
 }
+.riddonIntroDiv {
+  top: 15%;
+  text-align: center !important;
+}
+.gofood {
+  text-align: center !important;
+  display: inline-block;
+}
+.imageIntro {
+  margin: 0 auto !important;
+  display: block !important;
+  text-align: center !important;
+}
 @media screen and (max-width: 900px) {
   .mobile {
     display: block;
