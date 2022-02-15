@@ -8,7 +8,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/rolyn.png" />
         <title>Rolyn</title>
         <link
           rel="stylesheet"
