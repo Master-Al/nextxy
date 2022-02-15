@@ -75,9 +75,9 @@ export default function Navbar() {
                   Portfolio
                 </a>
               </Link>
-              <Link href="/getaqoute">
+              <Link href="https://kem10.typeform.com/to/mkk4K0">
                 <a
-                  href="#"
+                  href="https://kem10.typeform.com/to/mkk4K0"
                   className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-full shadow-sm text-base font-medium text-white bg-[#266599] hover:bg-indigo-700"
                 >
                   Get a Qoute
@@ -140,9 +140,9 @@ export default function Navbar() {
             </div>
             <div className="py-6 px-5 space-y-6">
               <div>
-                <Link href="/getaqoute">
+                <Link href="https://kem10.typeform.com/to/mkk4K0">
                   <a
-                    href="/getaqout"
+                    href="https://kem10.typeform.com/to/mkk4K0"
                     className="w-full whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-full shadow-sm text-base font-medium text-white bg-[#266599] hover:bg-indigo-700"
                   >
                     Get a Qoute
