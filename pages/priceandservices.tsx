@@ -205,7 +205,7 @@ class Priceandservices extends React.Component {
             </div>
           </div>
         </div>
-        <div className={styles.container}>
+        <div className={styles.portfoliomobile}>
           <div className="priceandservicesMobile">
             <div className="innerdiv">
               <div className="page1">
@@ -214,8 +214,8 @@ class Priceandservices extends React.Component {
                     src={introribbon}
                     alt="intro"
                     className="introImage"
-                    height={70}
-                    width={70}
+                    height={100}
+                    width={100}
                   />
                 </div>
                 <div className="clip1">
@@ -277,6 +277,7 @@ class Priceandservices extends React.Component {
                       </li>
                     </ul>
                   </div>
+                  <br />
                   <div className="ChoosePlan">
                     <button className="choosplanbtn">Choos Plan</button>
                   </div>
@@ -289,8 +290,8 @@ class Priceandservices extends React.Component {
                     src={popularribbon}
                     alt="popular"
                     className="introImage"
-                    height={70}
-                    width={70}
+                    height={100}
+                    width={100}
                   />
                 </div>
                 <div className="mobilepricing2">
@@ -350,6 +351,7 @@ class Priceandservices extends React.Component {
                       </li>
                     </ul>
                   </div>
+                  <br />
                   <div className="ChoosePlan">
                     <button className="choosplanbtn">Choos Plan</button>
                   </div>
@@ -366,8 +368,8 @@ class Priceandservices extends React.Component {
                     src={othercustomersribbon}
                     alt="other customers"
                     className="introImage"
-                    height={70}
-                    width={130}
+                    height={100}
+                    width={150}
                   />
                 </div>
                 <div className="mobilepricing3">
@@ -382,22 +384,22 @@ class Priceandservices extends React.Component {
                     <ul>
                       <li>
                         CHAT
-                        ................................................................................
+                        ......................................................................
                         Php 5k
                       </li>
                       <li>
                         CHAT
-                        ................................................................................
+                        ......................................................................
                         Php 5k
                       </li>
                       <li>
                         CHAT
-                        ................................................................................
+                        ......................................................................
                         Php 5k
                       </li>
                       <li>
                         CHAT
-                        ................................................................................
+                        ......................................................................
                         Php 5k
                       </li>
                     </ul>
@@ -416,30 +418,6 @@ class Priceandservices extends React.Component {
             </div>
           </div>
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br /> <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br /> <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br /> <br />
           <br />
           <br />
           <br />

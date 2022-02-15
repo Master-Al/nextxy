@@ -100,12 +100,16 @@ export default function Navbar() {
           focus
           className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
         >
-          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-main divide-y-2 divide-gray-50">
+          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 bg-[#040101]">
             <div className="pt-5 pb-6 px-5">
-              <div className="flex items-center justify-between">
-                <div>
-                  <Image alt="Rolyn" src={Rolyn} className="h-8 w-auto" /> O L Y
-                  N
+              <div className="flex items-center justify-between ">
+                <div className="text-white">
+                  <Image
+                    alt="Rolyn"
+                    src={Rolyn}
+                    className="h-8 w-auto text-white"
+                  />{" "}
+                  O L Y N
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -120,7 +124,7 @@ export default function Navbar() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                      className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50 text-white"
                     >
                       {/* <item.icon
                         className="flex-shrink-0 h-6 w-6 text-indigo-600"
@@ -136,12 +140,14 @@ export default function Navbar() {
             </div>
             <div className="py-6 px-5 space-y-6">
               <div>
-                <a
-                  href="#"
-                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-                >
-                  Sign up
-                </a>
+                <Link href="/getaqoute">
+                  <a
+                    href="/getaqout"
+                    className="w-full whitespace-nowrap inline-flex items-center justify-center px-4 py-2  rounded-full shadow-sm text-base font-medium text-white bg-[#266599] hover:bg-indigo-700"
+                  >
+                    Get a Qoute
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
